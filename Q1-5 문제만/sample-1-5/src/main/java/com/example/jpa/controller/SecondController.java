@@ -8,8 +8,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class SecondController {
 
     @GetMapping("/hello-rest")
-    public String hellorest(){
+    public String helloRest(){
        return "hello rest";
+    }
+
+
+    @GetMapping("/api/helloworld")
+    public String helloWorld(){
+        return "hello rest api";
     }
 
 }

@@ -18,14 +18,14 @@ public class FirstController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/helloworld")
     @ResponseBody
-    public String helloworld(){
+    public String helloWorld(){
         return "hello world";
     }
 
 
     @GetMapping("/hello-spring")
     @ResponseBody
-    public String hellospring(){
+    public String helloSpring(){
         return "hello spring";
     }
 }
